@@ -5,12 +5,12 @@
 // 2. Код перевірки if else
 // 3. перевірити чи рядок вміщає символи методом includes
 
-const email = prompt();
-let message = " mail не вірний";
-if (email.includes("@") && (".")) {
-    message = "Mail вірний"
-}
-console.log(message);
+// const email = prompt();
+// let message = " mail не вірний";
+// if (email.includes("@") && (".")) {
+//     message = "Mail вірний"
+// }
+// console.log(message);
 // -----------------------------------------TASK 2------------------------------------------//
 // Робимо імітацію логіна юзера і визначаємо до якої групи він відноситься
 // В перший prompt() юзер вводить своє імя, в 2 prompt() вводить свій вік
@@ -70,6 +70,7 @@ console.log(message);
 // Умови:
 // вдень Равлик проповзає на 7 м вгору, а за ніч опускається на 2 м вниз
 // використовувати цикл while()
+
 // function calcDays(depth) {
 // }
 // calcDays(42)//виповзе за 8 днів
@@ -104,3 +105,4 @@ console.log(message);
 //     }
 // }
 // console.log(names);
+
