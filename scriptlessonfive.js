@@ -324,18 +324,46 @@
 // console.log(account.getTransactionTotal(transactionTypes.WITHDRAW));
 // console.log(account.getTransactionTotal(transactionTypes.DEPOSIT));
 
-function addOverNum(...args) {
-  let total = 0;
+// function addOverNum(...args) {
+//   let total = 0;
 
-  for (const arg of args) {
-// if ( )
-    total += arg;
-  }
+//   for (const arg of args) {
+// // if ( )
+//     total += arg;
+//   }
 
-  return total;
-  // Change code above this line
-}
-console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
-console.log(addOverNum(50, 15, 27));
-console.log(addOverNum(15, 32, 6, 13, 19, 8));
-console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
+//   return total;
+//   // Change code above this line
+// }
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
+// console.log(addOverNum(50, 15, 27));
+// console.log(addOverNum(15, 32, 6, 13, 19, 8));
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
+
+
+// const pizzaPalace = {
+//   pizzas: ["Ultracheese", "Smoked", "Four meats"],
+//   order(pizzaName, onError, onSuccess) {
+//     if (this.pizzas.includes(pizzaName)){
+//       return onError(pizzaName);
+//     }
+//     return onSuccess(`There is no pizza with a name ${pizzaName} in the assortment.`)
+//   },
+// };
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// pizzaPalace.order("Smoked", makePizza, onOrderError);
+// pizzaPalace.order("Four meats", makePizza, onOrderError);
+// pizzaPalace.order("Big Mike", makePizza, onOrderError);
+// pizzaPalace.order("Vienna", makePizza, onOrderError);
